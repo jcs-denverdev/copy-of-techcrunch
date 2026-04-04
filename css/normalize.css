@@ -535,7 +535,10 @@ main {
 .three-col_33 .latest-article article {
   float: left;
   width: 33%;
-  /* border: 1px solid black; */
+  @media (max-width: 900px) {
+    /* maybe change float/width. side by side doesn't work */
+    width: 100%;
+  }
 }
 
 .three-col_33 .latest-article article h4 {
@@ -561,9 +564,7 @@ main {
 }
 
 .three-col_33 .latest-article article + article + article {
-  @media (max-width: 1130px) {
-    
-  }
+  
 }
 
 
