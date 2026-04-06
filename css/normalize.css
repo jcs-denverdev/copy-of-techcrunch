@@ -445,6 +445,10 @@ main {
 }
 
 .primary_article {
+
+  @media (max-width: 1254px) {
+    width: 90%;
+  }
   @media (min-width: 1255px) {
     width: 60%;
     padding: 0 5px;
