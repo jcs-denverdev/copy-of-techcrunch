@@ -507,6 +507,10 @@ main {
 /*****************************************/
 
 .three-col_33 h3 {
+  @media (max-width: 1254px) {
+    border-top: 3px solid rgb(81, 81, 81);
+  }
+
   border-bottom: 1px solid rgb(81, 81, 81);
   width: 99%;
   font-size: 1.5em;
@@ -514,6 +518,13 @@ main {
 }
 
 .three-col_33 .latest-article {
+  @media (max-width: 1254px) {
+
+  }
+  
+  border-bottom: 1px solid rgb(81, 81, 81);
+  margin-bottom: 1em;
+  padding-bottom: .5em;;
   float: left;
 }
 
