@@ -508,19 +508,35 @@ main {
 
 .three-col_33 h3 {
   border-bottom: 1px solid rgb(81, 81, 81);
+  width: 99%;
   font-size: 1.5em;
   padding: 1.4em 0 1.4em .3em; /* spacing top bottom and left */
 }
 
 .three-col_33 .latest-article {
-  background-color: blanchedalmond;
   float: left;
 }
 
 .three-col_33 .latest-article article {
   float: left;
-  width: 33.33%;
+  width: 33%;
   /* border: 1px solid black; */
+}
+
+.three-col_33 .latest-article article h4 {
+  font-size: 1.5em;
+  margin: 0;
+}
+
+.three-col_33 .latest-article article span {
+  display: block;
+  font-weight: 900;
+  margin-top: 1em;
+}
+
+.three-col_33 .latest-article article span + span {
+  font-weight: 300;
+  margin-top: .4em;
 }
 
 .three-col_33 .latest-article article img {
