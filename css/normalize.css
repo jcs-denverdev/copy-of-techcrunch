@@ -507,12 +507,14 @@ main {
 /*****************************************/
 
 .three-col_33 h3 {
+  border-bottom: 1px solid rgb(81, 81, 81);
   font-size: 1.5em;
   padding: 1.4em 0 1.4em .3em; /* spacing top bottom and left */
 }
 
-.three-col_33 h3, .three-col_33 .latest-article {
-  /* border-bottom: 1px solid rgb(81, 81, 81); */
+.three-col_33 .latest-article {
+  background-color: blanchedalmond;
+  float: left;
 }
 
 .three-col_33 .latest-article article {
@@ -522,5 +524,5 @@ main {
 }
 
 .three-col_33 .latest-article article img {
-  width: 50%;
+  width: 100%;
 }
