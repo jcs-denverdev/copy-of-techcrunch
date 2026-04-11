@@ -447,7 +447,6 @@ main {
 .primary_article {
   @media (min-width: 1255px) {
     width: 60%;
-    background-color: beige;
     padding: 0 5px;
   }
 }
@@ -507,9 +506,21 @@ main {
 /* LATEST ARTICLES
 /*****************************************/
 
+.three-col_33 h3 {
+  font-size: 1.5em;
+  padding: 1.4em 0 1.4em .3em; /* spacing top bottom and left */
+}
+
+.three-col_33 h3, .three-col_33 .latest-article {
+  /* border-bottom: 1px solid rgb(81, 81, 81); */
+}
+
 .three-col_33 .latest-article article {
   float: left;
   width: 33.33%;
-  height: 200px;
-  border: 1px solid black;
+  /* border: 1px solid black; */
+}
+
+.three-col_33 .latest-article article img {
+  width: 50%;
 }
