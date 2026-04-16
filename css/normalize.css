@@ -503,8 +503,13 @@ main {
   margin-top: .2em;
 }
 
-
-
 /******************************************
 /* LATEST ARTICLES
 /*****************************************/
+
+.three-col_33 .latest-article article {
+  float: left;
+  width: 33.33%;
+  height: 200px;
+  border: 1px solid black;
+}
