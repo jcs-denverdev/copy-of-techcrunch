@@ -452,6 +452,10 @@ main {
   }
 }
 
+.primary_article h1 {
+  font-size: 2.4em;
+}
+
 .primary_article span {
   font-weight: 900;
   font-size: 1em;
@@ -470,8 +474,36 @@ main {
 .side_articles {
   @media (min-width: 1255px) {
     width: 40%;
+    padding: 0 1em;
+    min-height: 100%;
   }
 }
+
+.side_articles article {
+  border-top: 1px solid black;
+  padding-bottom: .8em;
+}
+
+.side_articles article:first-child {
+  border: none;
+}
+
+.side_articles article h2 {
+  font-size: 1.5em;
+  margin-top: 1em;
+}
+
+.side_articles article + article img {
+  width: 10%;
+  display: block;
+  margin-top: 1em;
+}
+
+.side_articles article + article img + h2 {
+  margin-top: .2em;
+}
+
+
 
 /******************************************
 /* LATEST ARTICLES
