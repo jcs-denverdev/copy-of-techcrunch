@@ -413,6 +413,7 @@ template {
   background: none;
   border-style: none;
   font-size: 1.5em;
+  width: 80%;
 }
 
 .navlist {
@@ -431,18 +432,37 @@ template {
 
 main {
   margin-left: 250px;
+
+
 }
 
 /******************************************
 /* MAIN -- PRIMARY ARTICLE
 /*****************************************/
 
-.primary-article img {
+.primary_article, .side_articles {
+  @media (min-width: 1000px) {
+    float: left;
+  }
+}
+
+.primary_article {
+  width: 60%;
+}
+
+.primary_article img {
   width: 50%;
 }
+
 /******************************************
 /* SIDE ARTICLES
 /*****************************************/
+
+.side_articles {
+  @media (min-width: 1000px) {
+    width: 40%;
+  }
+}
 
 /******************************************
 /* LATEST ARTICLES
