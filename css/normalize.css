@@ -79,6 +79,7 @@ a {
 
 body {
   --techcrunchplus-color: rgb(243,194,68);
+  font-family: Arial, Helvetica, sans-serif;
 }
 /**
  * 1. Remove the bottom border in Chrome 57-
@@ -375,7 +376,6 @@ template {
 /*****************************************/
 
 .sidebar {
-  background-color: rgb(247, 247, 182);
   margin: 0;
   padding: 0;
   width: 250px;
@@ -390,11 +390,11 @@ template {
 }
 
 .top-left_corner {
-  padding: 0 1em;
+  padding: 0 1.3em;
 }
 
 .top-left_corner img {
-  width: 80%;
+  width: 60%;
 }
 
 .top-left_corner span {
@@ -425,12 +425,16 @@ template {
 }
 
 /******************************************
-/* MAIN -- PRIMARY ARTICLE
+/* MAIN
 /*****************************************/
 
 main {
   margin-left: 250px;
 }
+
+/******************************************
+/* MAIN -- PRIMARY ARTICLE
+/*****************************************/
 
 .primary-article img {
   width: 50%;
