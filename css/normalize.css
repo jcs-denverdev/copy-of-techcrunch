@@ -387,11 +387,9 @@ template {
 .sidebar nav {
   width: 80%;
   margin: 1em auto;
-  background-color: rgb(238, 208, 164);
 }
 
 .top-left_corner {
-  background-color: rgb(175, 244, 244);
   padding: 0 1em;
 }
 
@@ -427,11 +425,11 @@ template {
 }
 
 /******************************************
-/* PRIMARY ARTICLE
+/* MAIN -- PRIMARY ARTICLE
 /*****************************************/
 
-.primary-article {
-  width: 50%;
+main {
+  margin-left: 250px;
 }
 
 .primary-article img {
