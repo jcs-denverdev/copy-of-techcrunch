@@ -77,6 +77,9 @@ a {
   background-color: transparent;
 }
 
+body {
+  --techcrunchplus-color: rgb(243,194,68);
+}
 /**
  * 1. Remove the bottom border in Chrome 57-
  * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
@@ -372,7 +375,7 @@ template {
 /*****************************************/
 
 .sidebar {
-  background-color: beige;
+  background-color: rgb(247, 247, 182);
   margin: 0;
   padding: 0;
   width: 250px;
@@ -382,23 +385,39 @@ template {
 }
 
 .sidebar nav {
-  width: 90%;
+  width: 80%;
   margin: 1em auto;
+  background-color: rgb(238, 208, 164);
 }
 
 .top-left_corner {
-  /* width: 50%; */
   background-color: rgb(175, 244, 244);
+  padding: 0 1em;
 }
 
 .top-left_corner img {
-  width: 50%;
+  width: 80%;
+}
+
+.top-left_corner span {
+  font-size: 1.2em;
+  display: block;
+  padding: .2em 0;
+}
+
+.top-left_corner #techcrunchplus {
+  color: var(--techcrunchplus-color);
+  font-weight: 700;
 }
 
 .navlist form input {
   background: none;
   border-style: none;
   font-size: 1.5em;
+}
+
+.navlist {
+  padding: 0 1em;
 }
 
 .navlist li {
