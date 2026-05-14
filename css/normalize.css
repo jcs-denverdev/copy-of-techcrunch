@@ -395,6 +395,18 @@ template {
   width: 50%;
 }
 
+.navlist form input {
+  background: none;
+  border-style: none;
+  font-size: 1.5em;
+}
+
+.navlist li {
+  list-style: none;
+  font-size: 1.5em;
+  padding: .3em 0;
+}
+
 /******************************************
 /* PRIMARY ARTICLE
 /*****************************************/
