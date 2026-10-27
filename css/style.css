@@ -40,6 +40,7 @@ body {
   clear: both;
   height: 500px;
   width: 15%;
+  /* padding: 10px 5px 0 5px; */
 }
 
 .navigation ul li, .navigation nav span a, .navigation ul li a {

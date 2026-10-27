@@ -366,3 +366,50 @@ template {
 .clear {
 	clear: both;
 }
+
+/******************************************
+/* LEFT NAV PANEL
+/*****************************************/
+
+.sidebar {
+  background-color: beige;
+  margin: 0;
+  padding: 0;
+  width: 250px;
+  height: 100%; /* Full height */
+  position: fixed; /* Make it stick, even on scroll */
+  overflow: auto; /* Enable scrolling if the sidenav has too much content */
+}
+
+.sidebar nav {
+  width: 90%;
+  margin: 1em auto;
+}
+
+.top-left_corner {
+  /* width: 50%; */
+  background-color: rgb(175, 244, 244);
+}
+
+.top-left_corner img {
+  width: 50%;
+}
+
+/******************************************
+/* PRIMARY ARTICLE
+/*****************************************/
+
+.primary-article {
+  width: 50%;
+}
+
+.primary-article img {
+  width: 50%;
+}
+/******************************************
+/* SIDE ARTICLES
+/*****************************************/
+
+/******************************************
+/* LATEST ARTICLES
+/*****************************************/
